@@ -54,8 +54,7 @@
 }
 
 .file-list-card {
-    backdrop-filter: blur(50px);
-    box-shadow: 0px 0px 5px 3px #1976D2;
+    border-width: 0 0 1px 0;
 }
 .btn-delete, .btn-upload {
     font-size: 16px;
@@ -73,7 +72,7 @@
     opacity: 1;
     padding: 6px;
     transition: transform 0.2s, color 0.2s, border-radius 0.3s ease;
-    border: 1px solid #1976D2;
+
     border-radius: 45px;
 }
 

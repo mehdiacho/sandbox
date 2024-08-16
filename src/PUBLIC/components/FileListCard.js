@@ -2,18 +2,18 @@ import React from "react";
 
 export default function FileListCard(props) {
     return (
-        <div className={'card file-list-card text-bg-dark rounded-start-4 rounded-end-4 m-3 '}>
-            <div className="card-body  ">
-                <div className="row">
-                    <div className="col-7  d-flex flex-column justify-content-start">
-                        <p className="card-text file-name font-monospace">{props.name}</p>
-                        <p className="card-text file-size">{Math.round(props.size /(1024))} KB </p>
+        <div className={'card file-list-card text-bg-light rounded-0 '}>
+            <div className="card-body ">
+                <div className="row ">
+                    <div className="col-7 justify-content-start text-truncate ">
+                        <span className="card-text file-name font-monospace border-0 ">{props.name}</span>
+                        {/*<span className="card-text file-size">{Math.round(props.size /(1024))} KB </span>*/}
                     </div>
                     <div className="col-5 d-flex mb-auto justify-content-end " >
                         <button
                             //style={{opacity: 1.7}}
                             type={'button'}
-                            className="btn-close btn-close-danger  "
+                            className="btn-close"
                             onClick={() => props.deleteFile(props.id)}
                             value={'Input'}
                             disabled={props.disabled}
