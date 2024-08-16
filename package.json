@@ -4,13 +4,42 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@builder.io/react": "^3.1.1",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.12",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.15.14",
+    "@mui/x-date-pickers": "^7.0.0",
+    "@mui/x-date-pickers-pro": "^7.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.46.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "dayjs": "^1.11.10",
+    "firebase": "^10.12.5",
+    "ldrs": "^1.0.2",
     "react": "^18.3.1",
+    "react-apexcharts": "^1.4.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.3",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "sass": "^1.74.1",
+    "web-vitals": "^2.1.4",
+    "http-proxy-middleware": "^2.0.6",
+    "pdfjs-dist": "^3.9.179",
+    "react-spinners": "^0.13.8",
+    "tailwindcss": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +48,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +68,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "gh-pages": "^6.1.1",
+    "nodemon": "^3.1.0"
   }
 }
