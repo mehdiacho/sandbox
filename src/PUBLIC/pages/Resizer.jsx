@@ -67,6 +67,7 @@ const Resizer = () => {
                 canvas.height = height;
                 ctx.drawImage(img, 0, 0, width, height);
                 canvas.toBlob((blob) => {
+
                     resolve(URL.createObjectURL(blob));
                 }, 'image/png');
             };
@@ -119,7 +120,7 @@ const Resizer = () => {
                                 text={uploadBtn}
                             />
                             <div className="border-0 text-bg-light">
-                                {files.map((file, index) =>
+                                {files.map((file) =>
                                     <FileListCard
                                         key={file.id}
                                         id={file.id}
